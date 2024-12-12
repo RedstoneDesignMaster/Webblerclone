@@ -1,0 +1,267 @@
+.web-development-banner h1 {
+    font-size: 68px;
+}
+
+.web-development-banner {
+    padding-bottom: 200px;
+}
+
+.mf-webdev-sec {
+}
+
+.mf-webdev-sec .an-counter-wrapper .an-secondary-heading {
+    font-size: 50px;
+}
+
+.mf-webdev-sec .an-counter-wrapper .an-secondary-heading+p {
+    font-size: 20px;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.mf-webdev-sec .an-counter-wrapper .item b {
+    font-size: 50px;
+}
+
+.mf-webdev-sec .an-counter-wrapper .item p {
+    font-size: 20px;
+}
+
+.mf-webdev-services {
+    padding: 50px 0 130px;
+}
+
+.mf-webdev-services .an-heading-wrap {
+    text-align: center;
+}
+
+.mf-webdev-services .an-heading-wrap .an-priamry-heading {
+    max-width: 100%;
+}
+
+.mf-webdev-services .an-heading-wrap .an-priamry-heading+p {
+    max-width: 75%;
+    width: auto;
+    font-size: 24px;
+}
+
+.mf-webdev-services .row {
+    padding-top: 60px;
+}
+
+.services-main-web {
+}
+
+.services-main-web .card {
+    margin-bottom: 50px;
+    border: none;
+}
+
+.services-main-web .card .card-header {
+    border: none;
+    background: no-repeat;
+    padding: 0;
+}
+
+.services-main-web .card .card-header h5 button {
+    font-size: 36px;
+    color: black;
+    font-family: "Archivo Black";
+    white-space: normal;
+    text-align: initial;
+    text-decoration: none !important;
+    max-width: 90%;
+    padding: 0;
+}
+
+.services-main-web .card .card-body p {
+    color: #101522;
+    font-size: 20px;
+}
+
+.services-main-web .card .card-body {
+    padding: 0;
+}
+
+.services-main-web .card {
+    background: white;
+    border-radius: 25px;
+    padding: 30px 50px 20px;
+}
+
+.mf-webdev-services img {
+    border-radius: 25px;
+}
+
+.mf-webdev-ctas p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.mf-webdevelopment-process {
+    padding: 100px 0px;
+}
+
+.mf-webdevelopment-process .an-heading-wrap {
+    text-align: center;
+}
+
+.mf-webdevelopment-process .an-heading-wrap .an-priamry-heading {
+    max-width: 100%;
+    text-align: center;
+}
+
+.mf-webdevelopment-process .an-heading-wrap .an-priamry-heading span {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.mf-webdevelopment-process .an-heading-wrap .an-priamry-heading + p {
+    width: auto;
+    max-width: 70%;
+    font-size: 24px;
+    font-weight: 500;
+    color: #101522;
+}
+
+.inner-web-process {
+    text-align: center;
+    padding: 10px 26px;
+}
+.mf-webdevelopment-process .row{
+    padding-top: 50px;
+}
+
+.inner-web-process figure {
+    background: #FFFEE5;
+    border: 3px solid #FFF100;
+    display: grid;
+    place-items: center;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.inner-web-process:before{
+    content: '';
+    position: absolute;
+    background: url(../img/web/arrow-process.webp) no-repeat;
+    width: 99px;
+    height: 42px;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-animation: upDown 2s infinite;
+}
+
+.inner-web-process h5 {
+    font-size: 30px;
+    color: #101522;
+    margin-bottom: 20px;
+    font-family: 'Archivo Black';
+}
+
+.inner-web-process p {
+    color: #101522;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mf-webdevelopment-process .row div:nth-child(3) .inner-web-process:before ,
+.mf-webdevelopment-process .row div:nth-child(5) .inner-web-process:before {
+    display: none;
+}
+.mf-webdevelopment-choose{
+    background: #FFFEE5;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+.inner-webdev-choose .an-heading-wrap .an-priamry-heading{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.inner-webdev-choose strong{
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 75%;
+    line-height: normal;
+    display: block;
+    margin-bottom: 30px;
+}
+.inner-webdev-choose p{
+    font-size: 20px;
+    color: #101522;
+    font-weight: 500;
+    max-width: 80%;
+}
+.inner-webdev-choose ul{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.inner-webdev-choose ul li{
+    margin-bottom: 10px;
+    color: #101522;
+    font-size: 24px;
+    font-weight: 700;
+}
+.inner-webdev-choose ul li i{
+    color: #FFF100;
+    margin-right: 15px;
+}
+.inner-webdev-choose ul+p{
+    max-width: 65%;
+}
+.choose-images {
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    max-width: 55%;
+}
+/* .ling-rotate {
+    animation: ling-rotate infinite 2s linear;
+  }
+  
+  @keyframes ling-rotate {
+    0% {
+      transform: rotate(10deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(10deg);
+    }
+  } */
+
+@-webkit-keyframes upDown {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+
+  .an-portfolio-section .an-heading-wrap p{
+    width: auto;
+    max-width: 70%;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* .services-main-web .card.activate {background: #fffee5;}
+
+.services-main-web .card.card.activate:nth-child(1){
+    background: white;
+} */
+.services-main-web .card{
+    background: #fffee5;
+}

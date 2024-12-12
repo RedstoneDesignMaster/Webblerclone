@@ -1,0 +1,103 @@
+.porfolio-banner .row{
+    align-items: center;
+}
+.tab-content>.tab-pane {
+    display: block;
+    height: 0px;
+    overflow: hidden;
+}
+
+.tab-content>.active {
+    height: auto;
+}
+.an-portfolio-section .portfolio-tabs ul {
+    justify-content: center;
+}
+
+.an-portfolio-section .portfolio-tabs ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 10px;
+    border: 1px solid hsl(223.33deg 36% 9.8% / 14%);
+    border-radius: 10px;
+    min-width: 150px;
+}
+
+.an-portfolio-section .portfolio-tabs ul {
+    gap: 10px;
+}
+
+.an-portfolio-section .portfolio-tabs ul li a.active, .an-portfolio-section .portfolio-tabs ul li a:hover {
+    background: #fff100;
+    color: black;
+    border-color: #fff100;
+    box-shadow: 0px 5px 23px 0px #fff10052;
+}
+.an-cta-section img {
+    margin-top: -50px;
+    margin-bottom: -50px;
+    max-width: 100%;
+}
+.an-cta-section .an-secondary-heading {
+    margin-bottom: 10px;
+}
+
+.an-cta-section p {
+    font-weight: 500;
+    max-width: 80%;
+}
+.mf-webhost-choose{
+    padding: 90px 0;
+}
+.mf-webhost-choose .row{
+    align-items: center;
+}
+
+
+.inner-webhost-choose .an-heading-wrap .an-priamry-heading{
+    max-width: 90%;
+    margin-bottom: 30px;
+    font-size: 65px;
+    margin: inherit;
+    margin-bottom: 30px;
+}
+.inner-webhost-choose p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.inner-webhost-choose  strong{
+    font-size: 24px;
+    font-weight: 700;
+    color: #101522;
+    display: block;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+.inner-webhost-choose ul li{
+    color: #101522;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.inner-webhost-choose ul li i{
+    color: #101522;
+    margin-right: 10px;
+}
+.mf-webhost-choose img.img-fluid {
+    -webkit-animation: upDowns 2s infinite;
+}
+@-webkit-keyframes upDowns {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}

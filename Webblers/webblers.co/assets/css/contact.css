@@ -1,0 +1,94 @@
+.an-contact-section {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.an-contact-section .row {
+    align-items: center;
+}
+
+.an-contact-section ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.an-contact-section ul a {
+    font-weight: 600;
+    color: black;
+}
+
+.an-contact-section ul a img {
+    width: 20px;
+    margin-right: 14px;
+}
+
+.an-contact-section ul li {
+    margin-bottom: 12px;
+}
+
+.an-contact-section .an-priamry-heading {
+    margin-bottom: 30px;
+}
+
+.an-contact-section p {
+    font-weight: 500;
+    font-size: 17px;
+}
+.an-contact-page-form .form-control {
+    background: #f5f5fa;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: none;
+    min-height: 60px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.an-contact-page-form .form-control:focus {
+    border-color: #fff100;
+}
+
+.an-contact-page-form .rev-email-checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.an-contact-page-form .rev-email-checkbox #email1 {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    margin-left: 0px;
+}
+
+.an-contact-page-form .rev-email-checkbox  .form-check {
+    padding-left: 30px;
+    position: relative;
+}
+
+.an-contact-page-form  .an-primary-btn {
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+}
+
+.an-contact-section svg {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.an-contact-section svg path {
+    fill: none;
+    stroke: #fff100;
+    stroke-width: 3;
+    stroke-dasharray: 4200;
+    stroke-dashoffset: 4200;
+    -webkit-animation: dash 5s linear infinite;
+    animation: dash 5s linear infinite;
+}

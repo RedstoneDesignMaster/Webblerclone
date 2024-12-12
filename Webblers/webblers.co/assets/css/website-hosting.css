@@ -1,0 +1,252 @@
+.mf-webhost-banner p {
+    max-width: 90%;
+}
+
+.mf-webhost-banner {
+    padding-bottom: 200px;
+}
+
+.mf-webhost-banner h1 {
+    font-size: 65px;
+    line-height: 75px;
+}
+
+.mf-webhosting-data{
+    padding: 50px 0 130px;
+}
+.mf-webhosting-data .an-heading-wrap {
+    text-align: center;
+}
+.mf-webhosting-data .an-heading-wrap .an-priamry-heading + p{
+    width: auto;
+    max-width: 60%;
+}
+.inner-server-data{
+    border: 1px solid #DBDBEB;
+    border-radius: 25px;
+    padding: 60px 50px;
+    transition: 0.5s;
+    min-height: 100%;
+}
+.inner-server-data h4{
+    font-size: 30px;
+    color: #101522;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.inner-server-data p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #101522;
+}
+.inner-server-data:hover{
+    background: #FFFEE5;
+    border-color: #FFF100;
+}
+.mf-webhosting-data .row {
+    padding-top: 50px;
+}
+
+.mf-webhosting-data .row div {
+    margin-bottom: 20px;
+}
+.mf-webhost-ctas .an-secondary-heading{
+    max-width: 85%;
+}
+.mf-webhost-ctas  .row{
+    justify-content: space-between;
+}
+.mf-webhost-ctas p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+.mf-webhost-process {
+    padding: 100px 0px;
+}
+
+.mf-webhost-process .an-heading-wrap {
+    text-align: center;
+}
+
+.mf-webhost-process .an-heading-wrap .an-priamry-heading {
+    max-width: 100%;
+    text-align: center;
+}
+
+.mf-webhost-process .an-heading-wrap .an-priamry-heading span {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.mf-webhost-process .an-heading-wrap .an-priamry-heading + p {
+    width: auto;
+    max-width: 70%;
+    font-size: 24px;
+    font-weight: 500;
+    color: #101522;
+}
+
+.inner-webhost-process {
+    background: #F5F5FA;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 30px  30px;
+    gap: 0px 15px;
+    border: 1px solid #F5F5FA;
+    border-radius: 120px;
+}
+
+.mf-webhost-process .row:nth-child(2) {
+    padding-top: 100px;
+    gap: 70px 0px;
+}
+
+.inner-webhost-process figure {
+    margin: auto;
+    position: relative;
+}
+
+.inner-webhost-process figure img {
+    position: relative;
+    z-index: 1;
+}
+
+.inner-webhost-process figure {
+ 
+width: 100px;
+ 
+height: 100px;
+ 
+margin: auto;
+ 
+display: flex;
+ 
+align-items: center;
+ 
+justify-content: center;
+ 
+flex: 0 0 115px;
+}
+
+.inner-webhost-process:before {
+    content: '';
+    position: absolute;
+    background: url(../img/web-host/arrow-process.webp) no-repeat;
+    width: 99px;
+    height: 42px;
+    right: -50px;
+    top: -50px;
+    transform: translateY(-50%);
+    -webkit-animation: upDowns 2s infinite;
+}
+
+.inner-webhost-process h5 {
+    font-size: 30px;
+    color: #101522;
+    margin-bottom: 14px;
+    font-family: 'Archivo Black';
+}
+
+.inner-webhost-process p {
+    color: #101522;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mf-webhost-process .row div:nth-child(2) .inner-webhost-process:before , .mf-webhost-process .row div:nth-child(4) .inner-webhost-process:before {
+    display: none;
+}
+.mf-webhost-process .row div:nth-child(5) .inner-webhost-process:before {
+
+right: 45%;
+}
+
+
+
+
+
+.mf-webhost-choose{
+    padding: 50px 0;
+}
+.mf-webhost-choose .row{
+    align-items: center;
+}
+
+
+.inner-webhost-choose .an-heading-wrap .an-priamry-heading{
+    max-width: 100%;
+    margin-bottom: 30px;
+            font-size: 65px;
+    
+}
+.inner-webhost-choose p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.mf-webhost-choose img.img-fluid{
+    -webkit-animation: upDowns 2s infinite;
+}
+.inner-webhost-choose  strong{
+    font-size: 24px;
+    font-weight: 800;
+    color: #101522;
+    display: block;
+    margin-bottom: 40px;
+}
+.inner-webhost-choose ul li{
+    color: #101522;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.inner-webhost-choose ul li i{
+    color: #FFF100;
+    margin-right: 10px;
+    font-weight: 100;
+}
+.an-testimonial-section {
+    padding: 0px 0px 100px;
+}
+
+
+@-webkit-keyframes upDowns {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@-webkit-keyframes upDown {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+
+  .an-portfolio-section .an-heading-wrap p{
+    width: auto;
+    max-width: 70%;
+    font-size: 24px;
+    font-weight: 500;
+}

@@ -1,0 +1,239 @@
+.mf-domain-banner .an-banner-img {
+    z-index: 1;
+}
+.mf-domain-banner h1{
+    max-width: 80%;
+}
+.mf-domain-banner .banner-img-wrapper span{
+    z-index: 1;
+}
+
+
+
+.mf-hosting-services{
+    padding: 100px 0;
+}
+.mf-hosting-services .row{
+    padding-top: 50px;
+}
+.mf-hosting-services .row div:nth-child(even){
+    margin-top: 70px;
+}
+.mf-hosting-services .an-heading-wrap{
+    text-align: center;
+}
+.mf-hosting-services .an-heading-wrap .an-priamry-heading{
+
+max-width: 70%;
+
+margin-bottom: 20px;
+}
+.mf-hosting-services .an-heading-wrap .an-priamry-heading + p{
+    width: auto;
+    font-size: 20px;
+}
+
+.inner-hosting-serv{
+    padding: 50px 40px;
+    background: #FFFEE5;
+    border-radius: 25px;
+    border: 1px solid #FFF100;
+}
+.inner-hosting-serv img{
+    margin-bottom: 15px;
+}
+.inner-hosting-serv h4{
+    font-size: 26px;
+    font-weight: 700;
+}
+.domain-zigzag-sec{}
+.domain-zigzag-sec .an-secondary-heading{
+    font-size: 60px;
+}
+.domain-zigzag-sec .an-secondary-heading + p{
+   max-width: 80%;
+   font-size: 20px;
+}
+.mf-domain-cta .an-secondary-heading {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.mf-webdev-ctas p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.mf-domain-process {
+    padding: 110px 0;
+    position: relative;
+    overflow: hidden;
+}
+.mf-domain-process .row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.mf-domain-process  .an-heading-wrap {
+    text-align: center;
+}
+.mf-domain-process  .an-heading-wrap .an-priamry-heading{}
+.mf-domain-process  .an-heading-wrap .an-priamry-heading + p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.inner-domain-proc{
+    position: relative;
+    padding: 10px 15px 10px 0px;
+}
+.inner-domain-proc span{
+    font-size: 70px;
+    color: #E2E2F1;
+    font-family: 'Archivo Black';
+    display: block;
+    margin-bottom: 150px;
+}
+.inner-domain-proc strong{
+    background: #FFF100;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-30%);
+}
+.inner-domain-proc img{
+    margin-bottom: 25px;
+}
+.inner-domain-proc h4{
+    font-size: 30px;
+    font-family: 'Archivo Black';
+    margin-bottom: 30px;
+}
+.inner-domain-proc p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mf-domain-process svg{
+    position: absolute;
+    width: 100%;
+    top: 362px;
+    z-index: -1;
+    left: 15px;
+    }
+
+    .mf-domain-process  .container {
+        position: relative;
+    }
+
+
+    .mf-domain-process  svg path {
+        fill: none;
+        stroke: #fff100;
+        stroke-dasharray: 2000;
+        stroke-dashoffset: 2000;
+        animation: dash1 3s linear infinite;
+        opacity: 1;
+        }
+        @keyframes dash1 {
+        0% {
+          stroke-dashoffset: 2000;
+        }
+        20% {
+            stroke-dashoffset: 0;
+          }
+          80% {
+            stroke-dashoffset: 0;
+          }
+          100% {
+            stroke-dashoffset: -2000;
+          }
+        }
+
+.mf-domain-choose{
+    background: #F5F5FA;
+    padding: 50px 0;
+
+}
+.mf-domain-choose .row{
+    align-items: center;
+}
+
+
+.inner-domain-choose .an-heading-wrap .an-priamry-heading{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.inner-domain-choose p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.inner-domain-choose p + strong{
+    font-size: 30px;
+    font-weight: 800;
+    color: #101522;
+    display: block;
+    margin-bottom: 40px;
+}
+
+
+.an-portfolio-section .an-heading-wrap p {
+    width: auto;
+    max-width: 60%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.an-portfolio-section .an-heading-wrap h2 {
+    max-width: 75%;
+}
+
+@-webkit-keyframes upDowns {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+.domain-packages {
+    padding: 80px 0 50px;
+}
+
+.inner-packages span strong sup {
+    font-size: 14px;
+    color: #101522;
+    right: 12px;
+}
+.shared-slider .items{
+    margin: 20px;
+}
+.inner-packages span strong {
+    font-size: 50px;
+  
+}
+.inner-packages ul {
+
+    overflow: auto;
+
+}
+.inner-packages span h4{
+    margin: 00;
+}
+@media  (max-width:991px){
+    .domain-packages {
+        padding: 50px 0;
+    }
+}
